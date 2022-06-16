@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(255, 193, 168),rgba(238, 122, 14, 0.678),rgb(255,193,168));
+}
+.container {
+    width: 900px;
+    background-color:#e7f2f8;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.player-0-box{
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.player-1-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.Players-Name{
+    font-family:'Times New Roman', Times, serif;
+    margin: 100px 120px 0px;
+    font-size: 40px;
+}
+.Players-Score {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    margin: 0px 140px 10px;
+}
+.player-current-box{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    background-color: #fa6c3c;
+    margin: 50px 195px 0px 120px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.player-current-box .player-current-score{
+    margin-left: 30px;
+}
+.newGame {
+    position: absolute;
+    margin: 30px 400px 0px;
+    font-size: 25px;
+    color: #fd4407;
+}
+.newGame i{
+    color: #f0673a;
+}
+.rollDice:hover ,.holdDice:hover, .newGame:hover{
+    transform: translate(4px,-5px);
+    transition: .3s;
+}
+.rollDice {
+    position: absolute;
+    margin: 390px 380px 0px;
+    font-size: 30px;
+    color: #fd4407;
+}
+.holdDice {
+    position: absolute;
+    margin: 440px 400px 0px;
+    font-size: 30px;
+    color: #fd4407;
+} 
+.dicImg {
+    position: absolute;
+    margin: 230px 390px 0px;
+}  
+.dicImg img {
+    width: 45%;
+    border-radius: 10px;
+}
+.active {
+    background-color: #a0c5cc;
+}
